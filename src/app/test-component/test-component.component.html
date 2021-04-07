@@ -1,0 +1,20 @@
+<div class="random-planet">
+  <ul>
+    <!-- <li *ngFor="let planet of planets"> -->
+    <li>
+      <p>Name: {{ currentPlanet?.name }}</p>
+      <p>Rotation Period: {{ currentPlanet?.rotation_period }}</p>
+      <p>Orbital Period: {{ currentPlanet?.orbital_period }}</p>
+      <p>Diameter: {{ currentPlanet?.diameter }}</p>
+      <p>Climate: {{ currentPlanet?.climate }}</p>
+      <p>Gravity: {{ currentPlanet?.gravity }}</p>
+      <p>Terrain: {{ currentPlanet?.terrain }}</p>
+      <p>Surface Water: {{ currentPlanet?.surface_water }}</p>
+      <p>Population: {{ currentPlanet?.population }}</p>
+      <p>Residents: {{ currentPlanet?.residents }}</p>
+      <p>Films: {{ currentPlanet?.films }}</p>
+      <p>SW-API URL: {{ currentPlanet?.url }}</p>
+      <button (click)="showRandomPlanet()">Random Planet</button>
+    </li>
+  </ul>
+</div>
